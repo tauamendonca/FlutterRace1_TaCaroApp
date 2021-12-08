@@ -1,0 +1,28 @@
+name: tacaro
+description: Confira se esta pagando caro ou barato por suas compras.
+
+publish_to: "none"
+version: 1.5.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_fonts: ^2.1.0
+  supabase: ^0.2.10
+  validators: ^3.0.0
+  font_awesome_flutter: ^9.2.0
+  flutter_multi_formatter: ^2.4.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/

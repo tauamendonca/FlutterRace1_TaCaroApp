@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "tacaro",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define", "SUPABASEURL=https://cgtiawuprkqnubyetdvw.supabase.co",
+                "--dart-define", "SUPABASEKEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlhdCI6MTYzOTA4MDI0OCwiZXhwIjoxOTU0NjU2MjQ4fQ.MQW1vnOPCR8MpznD8j-ijJi4eBifGhXliOiPPS9tanQ",
+            ]
+        },
+        {
+            "name": "tacaro (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        }
+    ]
+}
