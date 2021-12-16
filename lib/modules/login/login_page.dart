@@ -54,7 +54,7 @@ class _LoginPageState extends State<LoginPage> {
         //https://api.flutter.dev/flutter/widgets/SingleChildScrollView-class.html
         body: SingleChildScrollView(
           child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 40),
+            padding: const EdgeInsets.only(left: 40, right: 40, top: 30),
             child: Form(
               key: controller.formKey,
               child: Column(

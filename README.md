@@ -19,3 +19,7 @@ Algumas das ideias para implementar após esta corrida ficaram para um futuro pr
 - Referência dos produtos com os usuários que os postaram
 
 - Página de perfil, entre outras.
+
+Algumas ideias que já implementei:
+
+- Uma animação bem simples para a splash screen utilizando o Flare/Rive, uma ferramenta de animações (https://rive.app/)

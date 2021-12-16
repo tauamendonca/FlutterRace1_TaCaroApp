@@ -16,6 +16,7 @@ dependencies:
   validators: ^3.0.0
   font_awesome_flutter: ^9.2.0
   flutter_multi_formatter: ^2.4.4
+  rive_splash_screen: ^0.1.0
 
 dev_dependencies:
   flutter_test:
@@ -26,3 +27,4 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/
+    - assets/animations/

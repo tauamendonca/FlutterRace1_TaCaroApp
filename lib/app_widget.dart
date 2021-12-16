@@ -14,18 +14,18 @@ class AppWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Tá Caro",
-      theme: ThemeData(primarySwatch: Colors.green),
-      initialRoute: "/splash",
-      routes: {
-        "/splash": (context) => const SplashPage(),
-        "/login": (context) => const LoginPage(),
-        "/login/create-account": (context) => const CreateAccountPage(),
-        "/home": (context) => HomePage(
-              pages: [FeedPage(), ProfilePage()],
-              user: ModalRoute.of(context)!.settings.arguments as UserModel,
-            )
-      },
-    );
+        title: "Tá Caro",
+        theme: ThemeData(primarySwatch: Colors.green),
+        initialRoute: "/splash",
+        routes: {
+          "/splash": (context) => const SplashPage(),
+          "/login": (context) => const LoginPage(),
+          "/login/create-account": (context) => const CreateAccountPage(),
+          "/home": (context) => HomePage(
+                pages: [FeedPage(), ProfilePage()],
+                user: ModalRoute.of(context)!.settings.arguments as UserModel,
+              )
+        },
+        debugShowCheckedModeBanner: false);
   }
 }
